@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: Stacking Fault Energy Calculator for Austenitic Steels
+message: >-
+  If you use this calculator, please cite both this repository and the
+  source dataset paper by Wang and Xiong (2020).
+type: software
+authors:
+  - given-names: Wei
+    family-names: Xiong
+    affiliation: >-
+      Physical Metallurgy and Materials Design Laboratory,
+      Department of Mechanical Engineering and Materials Science,
+      University of Pittsburgh
+    orcid: 'https://orcid.org/0000-0002-3825-1679'
+  - given-names: XinHang
+    family-names: Shi
+    affiliation: University of Pittsburgh
+repository-code: 'https://github.com/DSvL07/sfe-calculator'
+url: 'https://dsvl07.github.io/sfe-calculator/'
+abstract: >-
+  A browser-based calculator that predicts the stacking fault energy of an
+  austenitic steel from its composition and temperature. It reports a
+  validated uncertainty range and warns when a composition falls outside the
+  limits of the training data. Five models are included for comparison; the
+  model of record is a linear equation fitted with per-laboratory intercepts.
+keywords:
+  - stacking fault energy
+  - austenitic steel
+  - TWIP
+  - TRIP
+  - machine learning
+  - materials informatics
+license: MIT
+references:
+  - type: article
+    title: >-
+      Stacking fault energy prediction for austenitic steels:
+      thermodynamic modeling vs. machine learning
+    authors:
+      - given-names: Xin
+        family-names: Wang
+      - given-names: Wei
+        family-names: Xiong
+    journal: Science and Technology of Advanced Materials
+    volume: 21
+    issue: 1
+    start: 626
+    end: 634
+    year: 2020
+    doi: 10.1080/14686996.2020.1808433
